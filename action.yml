@@ -1,0 +1,15 @@
+name: GitHub Weekly Activity Analytics
+description: Generate weekly GitHub activity SVG for README
+author: mahfuz2411
+
+inputs:
+  username:
+    description: GitHub username
+    required: true
+  output:
+    description: Output SVG path
+    default: assets/activity.svg
+
+runs:
+  using: "node20"
+  main: "src/index.js"
