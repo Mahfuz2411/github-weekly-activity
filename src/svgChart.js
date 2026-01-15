@@ -28,7 +28,7 @@ function generateSVG(percentages) {
   </style>
 
   <text x="10" y="20" font-size="16" fill="#c9d1d9" font-weight="600">
-    Weekly GitHub Activity
+    My Weekly Activity
   </text>
 
   ${svgBars}
